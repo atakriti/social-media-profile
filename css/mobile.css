@@ -16,6 +16,13 @@
     .logos{
         width: 60%;
     }
+    .profile-logo{
+        width: 15%;
+    }
+    .profile-logo img{
+        width: 40px;
+        height: 40px;
+    }
 /* .............. left side ............ */
 .left-side {
     grid-column: 2/3;

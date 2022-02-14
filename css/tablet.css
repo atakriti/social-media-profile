@@ -11,6 +11,10 @@
     .home-btn-600px{
         display: block;
     }
+    .profile-logo{
+        width: 20%;
+    }
+    
     /* left side */
     .left-side{
         grid-column: 1/2;

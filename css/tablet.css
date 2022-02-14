@@ -13,11 +13,11 @@
     }
     .profile-logo{
         width: 20%;
-        
+        overflow: auto;
     }
     .profile-logo img{
-        width: 40px;
-        height: 40px;
+        width: 6vw;
+        height: 5vh;
     }
     
     /* left side */

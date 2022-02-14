@@ -16,7 +16,7 @@
         overflow: auto;
     }
     .profile-logo img{
-        width: 6vw;
+        min-width: 6vw;
         height: 5vh;
     }
     

@@ -21,7 +21,7 @@
         overflow: auto;
     }
     .profile-logo img{
-        width: 7vw;
+        min-width: 8vw;
         height: 5vh;
     }
 /* .............. left side ............ */

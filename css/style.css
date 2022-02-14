@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url("./left-side.css");
+@import url("./middle.css");
+@import url("./navbar.css");
+@import url("./right-side.css");
+@import url("./hovers.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color:rgb(49, 49, 49);
+    --background-color:rgb(207, 207, 207);
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--background-color);
+}
+
+
+a{
+    text-decoration: none;
+}
+/* ============ main-container ============= */
+.main-container{
+    display: grid;
+    grid-template-columns: 15vw 20vw 35vw 20vw 10vw;
+    grid-template-rows:5vh 2vh 1fr ;
+    gap:0px 1.5vw;
+}
+/* =================== Media query ============ */
+/* Max 600 */
+@media only screen and (max-width:600px) {
+    .main-container{
+        display: grid;
+        grid-template-columns:5vw 90vw 5vw  ;
+        /* grid-template-rows: 5vh 2vh 90vh 100vh 1fr; */
+        grid-template-rows: 5vh 2vh 90vh 120vh 1fr;
+    }
+    
+    .home-logo{
+        display: none;
+    }
+    .home-btn-600px{
+        display: block;
+    }
+    .logos{
+        width: 60%;
+    }
+/* .............. left side ............ */
+.left-side {
+    grid-column: 2/3;
+    grid-row: 3;
+    width: 90vw;
+    
+  }
+    .profile-info{
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .left-side-second-part{
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .interests{
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .interests-para{
+        width: 40vw;
+        font-size: 3vw;
+    }
+    .hey{
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    /* .................... middle ............... */
+    .middle{
+        grid-column: 2/3;
+        grid-row: 5;
+        width: 90vw;
+        margin-top: 5%;
+    }
+    .post{
+         width: 90vw;  
+         height: 20vh;
+         gap: 10px;
+    }
+    .post button{     
+        width: 20vw;
+    }
+    /* john */
+    .john-doe{
+        width: 90vw;
+        height: 70vh;
+    }
+    .john-pro > div{
+        width: 50%;
+        height: 100%;
+
+    }
+    .john-pro{
+        padding-top: 3%;
+    }
+    .john-pro div img {
+        width: 25%;
+    }
+    .john-like-comment{
+        width: 80%;
+    }
+
+    /* jane */
+    .jane-doe{
+        width: 90vw;
+        height: 37vh;
+        
+    }
+    .jane-pro > div{
+        width: 50%;
+        height: 100%;
+
+    }
+    .jane-pro{
+        padding-top: 3%;
+    }
+    .jane-pro div img {
+        width: 25%;
+    }
+    .jane-like-comment{
+        width: 80%;
+
+    }
+    /* angie */
+    .angie-jane{
+        width: 90vw;
+        height: 70vh;
+    }
+    .angie-pro > div{
+        width: 50%;
+        height: 100%;
+    }
+    .angie-pro{
+        padding-top: 3%;
+    }
+    .angie-pro div img {
+        border-radius: 50%;
+        width: 25%;
+      }
+      .angie-imgs img {
+          width: 100%;
+      }
+      .angie-like-comment{
+        width: 80%;
+
+      }
+     /* ................. right-side .................  */
+    .right-side{
+        grid-column: 2/3;
+        grid-row: 4;
+        margin-top: 10%;
+    }
+    .upcoming{
+        width: 70vw;
+        height: 45vh;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 5% 5%;
+    }
+    .friend-request{
+        width: 70vw;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .ads,.bugs{
+        width: 50vw;
+        height: 10vh;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+/* =================== Max 992 px =========== */
+@media only screen and (min-width:601px) and (max-width:992px) {
+    .main-container{
+        display: grid;
+        grid-template-columns:35vw 65vw;
+        grid-template-rows:5vh 2vh 90vh 1fr ;
+    }
+    .home-logo{
+        display: none;
+    }
+    .home-btn-600px{
+        display: block;
+    }
+    /* left side */
+    .left-side{
+        grid-column: 1/2;
+        width: 35vw;
+    }
+    .profile-info, .left-side-second-part , .interests , .hey{
+        margin-left: auto;
+        margin-right: auto;
+        width: 30vw;
+    }
+   
+    .profile-info :nth-child(1) img{
+        width: 13vw;
+        border-radius: 50%;
+    }
+    /* interests */
+    .interests-para{
+        width: 70%;
+        height: 4vh;
+        font-size: 1.8vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* ........ middle ........ */
+    .middle{
+        grid-column: 2/3;
+        width: 65vw;
+    }
+    .post{
+        width: 60vw;
+    }
+    .post button{
+        width: 10vw;
+    }
+    /* john */
+    .john-doe{
+        width: 60vw;
+    }
+    .john-pro{
+        height: 7vh;  
+    }
+    .john-pro>div{
+        height: 100%;
+        width: 50%;
+    }
+    .john-pro>div img{
+        width: 6vw;
+    }
+
+
+    /* jane */
+    .jane-doe{
+        width: 60vw;
+    }
+    .jane-pro{
+        height: 7vh;  
+    }
+    .jane-pro>div{
+        height: 100%;
+        width: 50%;
+    }
+    .jane-doe>div img{
+        width: 6vw;
+    }
+    /* angie */
+    .angie-jane{
+        width: 60vw;
+    }
+    .angie-pro{
+        height: 7vh;  
+    }
+    .angie-pro>div{
+        height: 100%;
+        width: 50%;
+    }
+    .angie-pro>div img{
+        width: 6vw;
+    }
+   
+    .angie-imgs img{
+        width: 50vw;
+    }
+    /* right side  */
+    .right-side{
+        grid-column: 1/2;
+        grid-row: 4;
+        width: 35vw;
+    }
+    .upcoming, .friend-request, .ads, .bugs{
+        width: 35vw;
+    }
+}
+
+/* ================= min 993 and max 1200 =============== */
+@media only screen and (min-width:993px) and (max-width:1355px) {
+    .home-logo{
+        width: 40%;
+    }
+    .profile-logo{
+        margin-right: 2%;
+    }
+    .post button{
+        width: 30%;
+    }
+    /* john */
+    .john-pro>div{
+        width: 40%;
+    }
+    .john-pro>div img{
+        width: 5vw;
+    }
+    /* jane */
+    .jane-pro>div{
+        width: 40%;
+    }
+    .jane-pro>div img{
+        width: 5vw;
+    }
+    /* angie */
+    .angie-pro>div{
+        width: 50%;
+    }
+    .angie-pro>div img{
+        width: 5vw;
+    }
+
+}

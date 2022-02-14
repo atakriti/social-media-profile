@@ -1,0 +1,203 @@
+.middle {
+  grid-column: 3/4;
+  grid-row: 3;
+}
+/* post */
+.post {
+  background-color: white;
+  width: 35vw;
+  height: 16vh;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  overflow: auto;
+  border-radius: 10px;
+  margin-bottom: 3%;
+  box-shadow: 2px 2px 10px gray;
+}
+.post input {
+  padding: 2%;
+  font-size: 2vh;
+}
+.post button {
+  width: 4.5vw;
+  padding: 1% 0%;
+  overflow: auto;
+  color: white;
+  background-color: var(--main-color);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.post button i {
+  margin-right: 5%;
+}
+/* John-Doe                                     */
+.john-doe {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+  height: 60vh;
+  padding: 2%;
+  background-color: white;
+  justify-content: space-between;
+  overflow: auto;
+  margin-bottom: 3%;
+  box-shadow: 2px 2px 10px gray;
+}
+.john-pro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.john-pro div img {
+  border-radius: 50%;
+  width: 40%;
+}
+.john-pro > div {
+  width: 20%;
+  height: 5vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+  overflow: auto;
+
+}
+.john-imgs {
+  height: 30vh;
+  display: flex;
+  justify-content: space-between;
+}
+.john-imgs img {
+  width: 49%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.john-like-comment {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+.john-like-comment button {
+  border-radius: 10px;
+  padding: 3%;
+  width: 47%;
+  background-color: var(--main-color);
+  color: white;
+  cursor: pointer;
+}
+.john-like-comment button i {
+  margin-right: 5%;
+}
+/* Jane */
+.jane-doe {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+  height: 30vh;
+  padding: 2%;
+  background-color: white;
+  justify-content: space-between;
+  overflow: auto;
+  margin-bottom: 3%;
+  box-shadow: 2px 2px 10px gray;
+}
+.jane-pro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.jane-pro div img {
+  border-radius: 50%;
+  width: 40%;
+}
+.jane-pro > div {
+  width: 20%;
+  height: 5vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+  overflow: auto;
+
+}
+.jane-like-comment {
+  width: 60%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .jane-like-comment button {
+    border-radius: 10px;
+    padding: 3%;
+    width: 47%;
+    background-color: var(--main-color);
+    color: white;
+    cursor: pointer;
+  }
+  .jane-like-comment button i {
+    margin-right: 5%;
+  }
+  /* Angie */
+  .angie-jane {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    height: 60vh;
+    padding: 2%;
+    background-color: white;
+    justify-content: space-between;
+    overflow: auto;
+    margin-bottom: 3%;
+    box-shadow: 2px 2px 10px gray;
+  }
+  .angie-pro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .angie-pro div img {
+    border-radius: 50%;
+    width: 40%;
+  }
+  .angie-pro > div {
+    width: 20%;
+    height: 5vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    overflow: auto;
+  }
+  .angie-imgs{
+    height: 30vh;
+  }
+
+  .angie-imgs img {
+    width: 23vw;
+    height: 28vh;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  .angie-like-comment {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .angie-like-comment button {
+    border-radius: 10px;
+    padding: 3%;
+    width: 47%;
+    background-color: var(--main-color);
+    color: white;
+    cursor: pointer;
+  }
+  .angie-like-comment button i {
+    margin-right: 5%;
+  }
+

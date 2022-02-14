@@ -1,0 +1,50 @@
+nav{
+    grid-column: 1/6;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 5vh;
+    background-color:var(--main-color);
+    padding: 0px 0.4vw;
+}
+/* only for max 600 */
+.home-btn-600px{
+    display: none;
+}
+/*  */
+.logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:25% ;
+    height: 100%;
+    
+}
+.home-logo{
+    width: 25%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+overflow: auto;
+
+}
+.logos i{
+    /* font-size: 1.4vw; */
+    font-size: 2.5vh;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.profile-logo{
+    width: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1%;
+}
+.profile-logo img{
+    border-radius:50% ;
+}

@@ -1,0 +1,16 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--background-color);
+}
+
+
+a{
+    text-decoration: none;
+}
+/* ============ main-container ============= */
+.main-container{
+    display: grid;
+    grid-template-columns: 15vw 20vw 35vw 20vw 10vw;
+    grid-template-rows:5vh 2vh 1fr ;
+    gap:0px 1.5vw;
+}

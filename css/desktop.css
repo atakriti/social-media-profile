@@ -1,0 +1,54 @@
+@media only screen and (min-width:993px) and (max-width:1355px) {
+    .main-container{
+        gap: 20px;
+
+    }
+    .home-logo{
+        width: 40%;
+    }
+    .profile-logo{
+        margin-right: 2%;
+    }
+    .post button{
+        width: 30%;
+    }
+    /* john */
+    .john-pro>div{
+        width: 40%;
+    }
+    .john-pro>div img{
+        width: 5vw;
+    }
+    .john-like-comment{
+        width: 70%;
+    }
+    .john-like-comment button{
+        padding:1% 2%;
+    }
+    /* jane */
+    .jane-pro>div{
+        width: 40%;
+    }
+    .jane-pro>div img{
+        width: 5vw;
+    }
+    .jane-like-comment{
+        width: 70%;
+    }
+    .jane-like-comment button{
+        padding:1% 2%;
+    }
+    /* angie */
+    .angie-pro>div{
+        width: 50%;
+    }
+    .angie-pro>div img{
+        width: 5vw;
+    }
+    .angie-like-comment{
+        width: 70%;
+    }
+    .angie-like-comment button{
+        padding:1% 2%;
+    }
+}

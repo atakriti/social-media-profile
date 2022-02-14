@@ -1,0 +1,126 @@
+@media only screen and (min-width:601px) and (max-width:992px) {
+    .main-container{
+        display: grid;
+        grid-template-columns:35vw 65vw;
+        grid-template-rows:5vh 2vh 90vh 1fr ;
+        gap: 0;
+    }
+    .home-logo{
+        display: none;
+    }
+    .home-btn-600px{
+        display: block;
+    }
+    /* left side */
+    .left-side{
+        grid-column: 1/2;
+        width: 35vw;
+    }
+    .profile-info, .left-side-second-part , .interests , .hey{
+        margin-left: auto;
+        margin-right: auto;
+        width: 30vw;
+    }
+   
+    .profile-info :nth-child(1) img{
+        width: 13vw;
+        border-radius: 50%;
+    }
+    /* interests */
+    .interests-para{
+        width: 70%;
+        height: 4vh;
+        font-size: 1.8vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* ........ middle ........ */
+    .middle{
+        grid-column: 2/3;
+        width: 65vw;
+    }
+    .post{
+        width: 60vw;
+    }
+    .post button{
+        width: 12vw;
+    }
+    /* john */
+    .john-doe{
+        width: 60vw;
+    }
+    .john-pro{
+        height: 7vh;  
+    }
+    .john-pro>div{
+        height: 100%;
+        width: 50%;
+    }
+    .john-pro>div img{
+        width: 6vw;
+    }
+    .john-like-comment{
+        width: 70%;
+    }
+    .john-like-comment button{
+        padding:1% 2%;
+    }
+
+
+    /* jane */
+    .jane-doe{
+        width: 60vw;
+    }
+    .jane-pro{
+        height: 7vh;  
+    }
+    .jane-pro>div{
+        height: 100%;
+        width: 50%;
+    }
+    .jane-doe>div img{
+        width: 6vw;
+    }
+    .jane-like-comment{
+        width: 70%;
+    }
+    .jane-like-comment button{
+        padding:1% 2%;
+    }
+    /* angie */
+    .angie-jane{
+        width: 60vw;
+    }
+    .angie-pro{
+        height: 7vh;  
+    }
+    .angie-pro>div{
+        height: 100%;
+        width: 50%;
+    }
+    .angie-pro>div img{
+        width: 6vw;
+    }
+   
+    .angie-imgs img{
+        width: 50vw;
+    }
+    .angie-like-comment{
+        width: 70%;
+    }
+    .angie-like-comment button{
+        padding:1% 2%;
+    }
+    /* right side  */
+    .right-side{
+        grid-column: 1/2;
+        grid-row: 4;
+        width: 35vw;
+    }
+    .upcoming, .friend-request, .ads, .bugs{
+        width: 30vw;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

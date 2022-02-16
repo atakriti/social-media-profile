@@ -48,4 +48,6 @@ overflow: auto;
 }
 .profile-logo img{
     border-radius:50% ;
+    box-shadow: 0px 0px 10px rgb(6, 128, 165);
+
 }

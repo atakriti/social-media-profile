@@ -11,10 +11,10 @@
     border-radius: 10px;
     width: 20vw;
     height: 35vh;
-    background-color: rgb(0, 0, 0);
-    color: white;
     margin-bottom: 5%;
-    box-shadow: 4px 4px 10px rgb(6, 128, 165);
+    background-color: var(--background-color);
+    color: var(--font-color);
+    box-shadow: var(--shadow);
 
 }
 .first-part{
@@ -28,6 +28,7 @@
 .profile-info :nth-child(1) img{
     width: 30%;
     border-radius: 50%;
+    box-shadow: 0px 0px 40px rgb(6, 128, 165);
 }
 .second-part{
     height: 13vh;
@@ -42,23 +43,21 @@
     border-radius: 10px;
     width: 20vw;
     height: 17vh;
-    background-color: var(--main-color);
     display: flex;
     flex-direction: column;
 justify-content: space-around;
 padding-left: 2%;
-color: white;
 margin-bottom: 5%;
 cursor: pointer;
-box-shadow: 4px 4px 10px rgb(6, 128, 165);
 overflow: auto;
+background-color: var(--background-color);
+    color: var(--font-color);
+    box-shadow: var(--shadow);
 }
 /* third section */
 .interests{
     width: 20vw;
     height: 17vh;
-    background-color: rgb(0, 0, 0);
-    color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -66,9 +65,9 @@ overflow: auto;
     border-radius: 10px;
     margin-bottom: 5%;
     overflow: auto;
-    box-shadow: 4px 4px 10px rgb(6, 128, 165);
-
-
+    background-color: var(--background-color);
+    color: var(--font-color);
+    box-shadow: var(--shadow);
 }
 .interests-para {
     border: 1px rgb(155, 155, 155) solid;
@@ -84,16 +83,15 @@ overflow: auto;
 .hey{
     border-radius: 10px;
     width: 20vw;
-    background-color: var(--main-color);
-    color: white;
     height: 12vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding-left: 4%;
     overflow: auto;
-    box-shadow: 4px 4px 10px rgb(6, 128, 165);
-
+    background-color: var(--background-color);
+    color: var(--font-color);
+    box-shadow: var(--shadow);
 }
 .hey i{
     cursor: pointer;

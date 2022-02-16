@@ -4,7 +4,8 @@
 }
 /* post */
 .post {
-  background-color: white;
+  background-color: rgb(0, 0, 0);
+  color: white;
   width: 35vw;
   height: 16vh;
   padding: 2%;
@@ -14,11 +15,13 @@
   overflow: auto;
   border-radius: 10px;
   margin-bottom: 3%;
-  box-shadow: 2px 2px 10px gray;
+  box-shadow: 4px 4px 10px rgb(6, 128, 165);
 }
 .post input {
   padding: 2%;
   font-size: 2vh;
+  background-color: black;
+  color: white;
 }
 .post button {
   width: 4.5vw;
@@ -28,23 +31,26 @@
   background-color: var(--main-color);
   border-radius: 10px;
   cursor: pointer;
+  box-shadow: 0px 0px 10px rgb(6, 128, 165);
+
 }
 .post button i {
   margin-right: 5%;
 }
 /* John-Doe                                     */
 .john-doe {
+  color: white;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   width: 35vw;
   height: 60vh;
   padding: 2%;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
   justify-content: space-between;
   overflow: auto;
   margin-bottom: 3%;
-  box-shadow: 2px 2px 10px gray;
+  box-shadow: 4px 4px 10px rgb(6, 128, 165);
 }
 .john-pro {
   display: flex;
@@ -93,17 +99,18 @@
 }
 /* Jane */
 .jane-doe {
+  color: white;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   width: 35vw;
   height: 30vh;
   padding: 2%;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
   justify-content: space-between;
   overflow: auto;
   margin-bottom: 3%;
-  box-shadow: 2px 2px 10px gray;
+  box-shadow: 4px 4px 10px rgb(6, 128, 165);
 }
 .jane-pro {
   display: flex;
@@ -142,17 +149,18 @@
   }
   /* Angie */
   .angie-jane {
+    color: white;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     width: 35vw;
     height: 60vh;
     padding: 2%;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     justify-content: space-between;
     overflow: auto;
     margin-bottom: 3%;
-    box-shadow: 2px 2px 10px gray;
+    box-shadow: 4px 4px 10px rgb(6, 128, 165);
   }
   .angie-pro {
     display: flex;
